@@ -1,0 +1,61 @@
+{
+	"properties": {
+		"columns": 3,
+		"rows": 3
+	},
+	"tiles": [
+		{
+			"x": 0,
+			"y": 0,
+			"name": "LAND",
+			"rotation": 0
+		},
+		{
+			"x": 1,
+			"y": 0,
+			"name": "ROAD_X",
+			"rotation": 0
+		},
+		{
+			"x": 2,
+			"y": 0,
+			"name": "ROAD_L",
+			"rotation": 0
+		},
+		{
+			"x": 0,
+			"y": 1,
+			"name": "ROAD_O",
+			"rotation": 0
+		},{
+			"x": 1,
+			"y": 1,
+			"name": "LAND",
+			"rotation": 0
+		},
+		{
+			"x": 2,
+			"y": 1,
+			"name": "ROAD_X",
+			"rotation": 0
+		},
+		{
+			"x": 0,
+			"y": 2,
+			"name": "ROAD_L",
+			"rotation": 0
+		},
+		{
+			"x": 1,
+			"y": 2,
+			"name": "ROAD_O",
+			"rotation": 0
+		},
+		{
+			"x": 2,
+			"y": 2,
+			"name": "ROAD_O",
+			"rotation": 0
+		}
+	]
+}

@@ -1,0 +1,41 @@
+[
+	{
+		"id": 0,
+		"name": "WHITE",
+		"value": {
+			"original": "#FFF2F3FF",
+			"adjusted": "#FFF2F3FF"
+		},
+		"binary": true
+	},
+	
+	{
+		"id": 1,
+		"name": "BLACK",
+		"value": {
+			"original": "#FF1B2A34", 
+			"adjusted": "#FF1B2A34"
+		},
+		"binary": true
+	},
+	
+	{
+		"id": 2,
+		"name": "RED",
+		"value": {
+			"original": "#FFC0281B",
+			"adjusted": "FFC0281B"
+		},
+		"binary": false
+	},
+	
+	{
+		"id": 3,
+		"name": "ORANGE",
+		"value": {
+			"original": "#FFE8AB2D",
+			"adjusted": "#FFE8AB2D"
+		},
+		"binary": false
+	}
+]	

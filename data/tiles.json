@@ -1,0 +1,76 @@
+[
+	{
+		"id": 0,
+		"name": "LAND",
+		"aspect": {
+			"render": "TEXTURE",
+			"texture": "textures/land.png"
+		},
+		"colors":[
+			"WHITE",
+			"WHITE",
+			"WHITE",
+			"WHITE"	
+		]
+	},
+	
+	{
+		"id": 1,
+		"name": "ROAD_I",
+		"aspect": {
+			"render": "TEXTURE",
+			"texture": "textures/road_I.png"
+		},
+		"colors":[
+			"RED",
+			"WHITE",
+			"WHITE",
+			"WHITE"	
+		]
+	},
+	
+	{
+		"id": 2,
+		"name": "ROAD_X",
+		"aspect": {
+			"render": "TEXTURE",
+			"texture": "textures/road_X.png"
+		},
+		"colors":[
+			"RED",
+			"WHITE",
+			"WHITE",
+			"BLACK"	
+		]
+	},
+	
+	{
+		"id": 3,
+		"name": "ROAD_L",
+		"aspect": {
+			"render": "TEXTURE",
+			"texture": "textures/road_L.png"
+		},
+		"colors":[
+			"RED",
+			"WHITE",
+			"BLACK",
+			"WHITE"	
+		]
+	},
+	
+	{
+		"id": 4,
+		"name": "ROAD_O",
+		"aspect": {
+			"render": "TEXTURE",
+			"texture": "textures/road_O.png"
+		},
+		"colors":[
+			"RED",
+			"WHITE",
+			"BLACK",
+			"BLACK"	
+		]
+	},
+]
