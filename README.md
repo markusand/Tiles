@@ -25,7 +25,7 @@ Colors are also defined as JSON object in a file. Colors file must be shared bot
 
 ## Usage
 	
-Create a Tiles grid, specifying the settings files beforehand created. If no settings files are given, it will retrieve "colors.tsv" and "tiles.tsv" as default
+Create a Tiles grid, specifying the settings files beforehand created. If no settings files are given, it will retrieve "colors.json" and "tiles.json" as default
 
 	Tableau tableau = new Tableau("colors.json", "tiles.json");
 	
