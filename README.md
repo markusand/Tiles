@@ -40,7 +40,7 @@ Draw Tiles at given location and tileSize
 	tableau.draw(width/2, height/2, 80);
 
 
-# Message format
+## Message format
 
 *msg* is a JSON object containing the grid structure and an array with every tile properties
 
