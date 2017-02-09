@@ -193,21 +193,21 @@ public class Tableau {
         JSONArray tilesJSON = loadJSONArray(settingsPath);
         for(int i = 0; i < tilesJSON.size(); i++) {
             JSONObject tileJSON = tilesJSON.getJSONObject(i);
-            PShape shape = null;
             JSONArray colorCode = tileJSON.getJSONArray("colors");
             JSONObject aspect = tileJSON.getJSONObject("aspect");
             String render = aspect.getString("render");
+            PShape shape = null;
             if(render.equals("COLOR")) {
-                shape = createShape(RECT, 0, 0, 1, 1);
                 color fill = Color.decode( aspect.getString("color") );
+                shape = createShape(RECT, 0, 0, 1, 1);
                 shape.setFill(fill);
             } else if(render.equals("TEXTURE")) {
                 PImage texture = loadImage( aspect.getString("texture") );
                 shape = createShape(RECT, 0, 0, 1, 1);
                 shape.setTexture(texture);
             } else {
-                shape = createShape(GROUP);
                 int width = floor( sqrt( colorCode.size() ) );
+                shape = createShape(GROUP);
                 for(int j = 0; j < colorCode.size(); j++) {
                     color c = colors.get( colorCode.getString(j) ).getColor();
                     PShape jQ = createShape(RECT, j % width, j / width, 1, 1);

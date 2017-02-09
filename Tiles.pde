@@ -16,8 +16,8 @@ void draw() {
     background(#555555);
     
     tableau.set3D(false);
-    tableau.draw(50, 80, 10);
+    tableau.draw(50, 50, 10);
     tableau.set3D(true);
-    tableau.draw(width/2, height/2, 80);
+    tableau.draw(width/2, height/2, 100);
     
 }
